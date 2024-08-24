@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Youtube.com Clone </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel= "stylesheet" href = "Styles/general.css">
+    <link rel = "stylesheet" href = "Styles/header.css">
+    <link rel = "stylesheet" href = "Styles/video.css">
+    <link rel = "stylesheet" href = "Styles/sidebar.css">
+  </head>
+  <body>
+    <div class = "header">
+      
+      <div class = "left-section">
+        <img class = "hamburger-menu" src = "icons/hamburger-menu.svg">
+        <img class = "youtube-logo" src = "icons/youtube-logo.svg">
+      </div>
+      <div class = "middle-section">
+        <input class = "search-bar" type = "text" placeholder="Search">
+        <button class = "search-button">
+          <img class = "search-icon" src = "icons/search.svg">
+          <div class = "tooltip">Search</div>
+        </button>
+        <button class = "voice-button">
+          <img class = "voice-search-icon" src = "icons/voice-search-icon.svg">
+          <div class = "tooltip">Search with your voice</div>
+        </button>
+      </div>
+      
+      <div class = "right-section">
+        <div class = "upload-icon-container">
+          <img class = "upload-icon" src = "icons/upload.svg">
+          <div class = "tooltip">Create</div>
+        </div>
+        <div class = "upload-icon-container">
+          <img class = "youtube-apps" src = "icons/youtube-apps.svg">
+          <div class = "tooltip">Youtube apps</div>
+        </div>
+        <div class = "upload-icon-container">
+          <div class = "notification-icon-container">
+            <img class = "notification-icon" src = "icons/notifications.svg">
+            <div class = "tooltip">Notifications</div>
+            <div class = "notifications-counter">
+              3
+            </div>
+          </div>
+        </div>
+        <div class = "upload-icon-container">
+          <img class = "profile-icon" src = "icons/profile.jpg">
+          <div class = "tooltip">Profile</div>
+        </div>
+      </div>
+    </div>
+
+    <div class = "side-bar">
+      <div class = "sidebar-link">
+        <img src = "icons/home-button.svg">
+        <div>
+          Home
+        </div>
+      </div>
+      <div class = "sidebar-link">
+        <img src = "icons/explore-button.svg">
+        <div>
+          Explore
+        </div>
+      </div>
+      <div class = "sidebar-link">
+        <img src = "icons/subscriptions-button.svg">
+        <div>
+          Subscriptions
+        </div>
+      </div>
+      <div class = "sidebar-link">
+        <img src = "icons/originals-button.svg">
+        <div>
+          Originals
+        </div>
+      </div>
+      <div class = "sidebar-link">
+        <img src = "icons/youtube-music-button.svg">
+        <div>
+          Youtube Music
+        </div>
+      </div>
+      <div class = "sidebar-link">
+        <img src = "icons/library-button.svg">
+        <div>
+          Library
+        </div>
+      </div>
+    </div>
+
+    <div class = "video-grid">
+      <div class = "video-preview">
+        <div class = "thumbnail-row">
+          <img class = "thumbnail" src = "Thumbnails/thumbnail-1.webp">
+          <div class = "video-time">12:20</div>
+        </div>
+        <div class = "video-info-grid">
+          <div class = "channel-picture">
+            <div class = "channel-picture">
+              <div class = "channel-popup">
+                <img class = "profile-picture" src = "Channel-pictures/channel-1.jpeg">
+                <div class = "tool">
+                  <div class = "nested">
+                    <div>
+                      <img class = "expanded-img" src = "Channel-pictures/channel-1.jpeg">
+                      <div class = "inner-nested">
+                        <p class = "titles"> Marques Brownlee</p>
+                        <p class = "text-val"> 15M Subscribers </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class = "video-info">
+            <p class = "video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+            <p class = "video-author"> Marques Brownlee</p>
+            <p class = "video-stats">3.4M views &#183; 6 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class = "video-preview">
+        <div class = "thumbnail-row">
+          <img class = "thumbnail" src = "Thumbnails/thumbnail-2.webp">
+          <div class = "video-time">8:22</div>
+        </div>
+        <div class = "video-info-grid">
+          <div class = "channel-picture">
+            <div class = "channel-picture">
+              <div class = "channel-popup">
+                <img class = "profile-picture" src = "Channel-pictures/channel-2.jpeg">
+                <div class = "tool">
+                  <div class = "nested">
+                    <div>
+                      <img class = "expanded-img" src = "Channel-pictures/channel-2.jpeg">
+                      <div class = "inner-nested">
+                        <p class = "titles"> Markiplier </p>
+                        <p class = "text-val"> 32.6M Subscribers </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class = "video-info">
+            <p class = "video-title">Try Not To Laugh Challenge #9</p>
+            <p class = "video-author"> Markiplier</p>
+            <p class = "video-stats">19M views &#183; 4 years ago</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class = "video-preview">
+        <div class = "thumbnail-row">
+          <img class = "thumbnail" src = "Thumbnails/thumbnail-1.webp">
+          <div class = "video-time">4:22</div>
+        </div>
+        <div class = "video-info-grid">
+          <div class = "channel-picture">
+            <div class = "channel-popup">
+              <img class = "profile-picture" src = "Channel-pictures/channel-1.jpeg">
+              <div class = "tool">
+                <div class = "nested">
+                  <div>
+                    <img class = "expanded-img" src = "Channel-pictures/channel-1.jpeg">
+                    <div class = "inner-nested">
+                      <p class = "titles"> Marques Brownlee</p>
+                      <p class = "text-val"> 15M Subscribers </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class = "video-info">
+            <p class = "video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+            <p class = "video-author"> Marques Brownlee</p>
+            <p class = "video-stats">3.4M views &#183; 6 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class = "video-preview">
+        <div class = "thumbnail-row">
+          <img class = "thumbnail" src = "Thumbnails/thumbnail-2.webp">
+          <div class = "video-time">12:00</div>
+        </div>
+        <div class = "video-info-grid">
+          <div class = "channel-picture">
+            <div class = "channel-picture">
+              <div class = "channel-popup">
+                <img class = "profile-picture" src = "Channel-pictures/channel-2.jpeg">
+                <div class = "tool">
+                  <div class = "nested">
+                    <div>
+                      <img class = "expanded-img" src = "Channel-pictures/channel-2.jpeg">
+                      <div class = "inner-nested">
+                        <p class = "titles"> Markiplier </p>
+                        <p class = "text-val"> 32.6M Subscribers </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class = "video-info">
+            <p class = "video-title">Try Not To Laugh Challenge #9</p>
+            <p class = "video-author"> Markiplier</p>
+            <p class = "video-stats">19M views &#183; 4 years ago</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class = "video-preview">
+        <div class = "thumbnail-row">
+          <img class = "thumbnail" src = "Thumbnails/thumbnail-1.webp">
+          <div class = "video-time">8:22</div>
+        </div>
+        <div class = "video-info-grid">
+          <div class = "channel-picture">
+            <div class = "channel-picture">
+              <div class = "channel-popup">
+                <img class = "profile-picture" src = "Channel-pictures/channel-1.jpeg">
+                <div class = "tool">
+                  <div class = "nested">
+                    <div>
+                      <img class = "expanded-img" src = "Channel-pictures/channel-1.jpeg">
+                      <div class = "inner-nested">
+                        <p class = "titles"> Marques Brownlee</p>
+                        <p class = "text-val"> 15M Subscribers </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class = "video-info">
+            <p class = "video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+            <p class = "video-author"> Marques Brownlee</p>
+            <p class = "video-stats">3.4M views &#183; 6 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class = "video-preview">
+        <div class = "thumbnail-row">
+          <img class = "thumbnail" src = "Thumbnails/thumbnail-2.webp">
+          <div class = "video-time">21:43</div>
+        </div>
+        <div class = "video-info-grid">
+          <div class = "channel-picture">
+            <div class = "channel-picture">
+              <div class = "channel-popup">
+                <img class = "profile-picture" src = "Channel-pictures/channel-2.jpeg">
+                <div class = "tool">
+                  <div class = "nested">
+                    <div>
+                      <img class = "expanded-img" src = "Channel-pictures/channel-2.jpeg">
+                      <div class = "inner-nested">
+                        <p class = "titles"> Markiplier </p>
+                        <p class = "text-val"> 32.6M Subscribers </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class = "video-info">
+            <p class = "video-title">Try Not To Laugh Challenge #9</p>
+            <p class = "video-author"> Markiplier</p>
+            <p class = "video-stats">19M views &#183; 4 years ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+  </body>
+</html>

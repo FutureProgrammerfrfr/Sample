@@ -1,0 +1,13 @@
+h1 {
+    font-family: Montserrat; 
+    font-weight: bold;
+    text-align: center;
+}
+p {
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 24px;
+}
+.underline-text {
+    text-decoration: underline;
+}
